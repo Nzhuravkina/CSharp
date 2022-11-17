@@ -12,11 +12,13 @@ Console.WriteLine("Ввeдите второе число: ");
 string str2 = Console.ReadLine();
 int number2 = int.Parse(str2);
 
-if (number1 % number2 == 0)
+int del = number1 % number2; //ввели переменную, чтобы далее не высчитывать это 2 раза (в троках 17 и 23)
+
+if (del == 0)
 {
     Console.WriteLine("Кратно");
 }
 else
 {
-    Console.WriteLine("Не кратно, остаток " + number1 % number2);
+    Console.WriteLine("Не кратно, остаток " + del);
 }

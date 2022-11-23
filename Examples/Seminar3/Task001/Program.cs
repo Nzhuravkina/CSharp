@@ -34,8 +34,8 @@ else
 // Альтернативное решение через switch
 
 Console.WriteLine("Введите номер четверти: ");
-string qText = Console.ReadLine();
-int qNumber = int.Parse(qText);
+string qText1 = Console.ReadLine();
+int qNumber1 = int.Parse(qText);
 
 switch(qNumber)
 {

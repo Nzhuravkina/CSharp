@@ -29,8 +29,8 @@ int Sum(int number)
 }
 
 Console.WriteLine("Введите число");
-int N = int.Parse(Console.ReadLine());
+int N2 = int.Parse(Console.ReadLine());
 
-int result = Sum(N);
+int result = Sum(N2);
 
-Console.WriteLine($"Сумма элементов от 1 до {N} = {result}");
+Console.WriteLine($"Сумма элементов от 1 до {N2} = {result}");

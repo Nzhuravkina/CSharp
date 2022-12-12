@@ -2,7 +2,7 @@
 
 // Вид 1 (Ничего не принимают и не вохвращают):
 
-void Mathod1()
+void Method1()
 {
     Console.WriteLine("Автор ...");
 }
@@ -32,7 +32,7 @@ void Method21(string msg, int count)
     }
 }
 // Как вызвать метод (можно явно указывать, какому аргументу какое значение хотим присвоить(msg: )):
-Method2(msg: "Текст сообщения", count: 4);
+Method21(msg: "Текст сообщения", count: 4);
 
 
 // Вид 3 (Метод не принимает аргументы, но возвращает результат)
@@ -49,7 +49,7 @@ Console.WriteLine(year);
 
 // Вид 4 (Что-то принимают и что-то возвращают)
 
-str Method4(int count, string text)
+string Method4(int count, string text)
 {
     int i = 0;
     string result = ""; // Или string result = String.Empty;

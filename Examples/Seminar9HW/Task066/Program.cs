@@ -10,9 +10,9 @@ int SumOfNaturalElements(int n, int m)
     return (n + SumOfNaturalElements(n + 1, m));
 }
 
-Console.WriteLine("Введите число A");
+Console.WriteLine("Введите число n");
 int n = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите число B");
+Console.WriteLine("Введите число m");
 int m = int.Parse(Console.ReadLine());
 
 Console.WriteLine($"Сумма элементов в промежутке между {n} и {m} = {SumOfNaturalElements(n, m)}");
